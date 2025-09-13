@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('/work/imagens/backgroundseg.jpg');
+    overflow:hidden;
+    background-size:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+   
+    background-color: #48c5ce;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+
+}
+.title{
+    font-size: 26px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+
+
+}
+.insc a:hover{
+    background: linear-gradient(to right, #000066 0%, #6699ff 100%);
+}
+
+section{
+    background-image: url('/work/imagens/people.jpg');
+    overflow: hidden;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+}
+.fromcontainer{
+    max-width: 230px;
+    background-color: #202222bb;
+    float: right;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+input[type="submit"]{
+    color: white;
+    background-color:#48c5ce ;
+    font-weight: bold
+    
+
+}
+
+button{
+    box-shadow:rgb(190, 169, 165) 1px 1px 7px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 75px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: rgb(248, 255, 60)  ;
+    background: linear-gradient(to right ,#776f6ffb, rgba(30, 37, 37, 0.986),rgba(0, 7, 7, 0.322));
+    padding: 7px;
+    font-weight: bold;
+    position: relative;
+    
+    
+}
+button:hover{
+    color: black;
+    text-transform: uppercase;
+    transform:rotate(360deg);
+    transition:.7s ease;
+    font-weight: bold;
+    background: linear-gradient(to right ,rgb(255, 209, 92), rgb(221, 176, 64),rgb(245, 208, 116));
+}
+button:active{
+    font-size: 15px;
+    transform: rotate(-350deg);
+    z-index: 15;
+    background: linear-gradient(to right ,#06beb6, rgb(14, 11, 9),#48b1bf);
+    color: rgb(255, 255, 255);
+    transition:.7s ease;
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url('/work/imagens/arrow.jpg');
+    background-position: calc(100% - 10px) center;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color:#202121 ;
+  text-align: center;
+} 
+.description{
+    text-align: left;
+    display: inline-block;
+    margin-left: 40px;
+    max-width: 40%;
+    color: white;
+}
+.picture{
+    width: 160px;
+}
+.description p, .description h3{
+    padding-bottom: 10px;
+   
+}
+.description h3{
+    font-size: 24px;
+}
+@media screen and (max-width: 500px){
+    .fromcontainer{
+        float:left;
+        margin-left: 50px;
+        
+    }
+    
+
+    .description h3{
+        font-size: 17px;
+        padding-top: 50px;
+    }
+    .description p{
+        font-size: 13px;
+    }
+}
